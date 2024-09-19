@@ -1,0 +1,11 @@
+# Шаблоны игнорирования в git
+# https://www.atlassian.com/ru/git/tutorials/saving-changes/gitignore#git-ignore-patterns
+#
+
+build_*/
+lib/
+
+*.exe
+*.ii
+*.s
+*.o
