@@ -1,0 +1,3 @@
+add_library(${SQLITE_LIB} shell.c sqlite3.c)
+
+target_include_directories(${SQLITE_LIB} PUBLIC "${CMAKE_CURRENT_SOURCE_DIR}")

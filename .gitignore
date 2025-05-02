@@ -4,6 +4,7 @@
 
 build_*/
 lib/
+!/250503_students_journal/lib/
 
 *.exe
 *.ii
